@@ -1,0 +1,97 @@
+[Root]
+Most Recent Package=Editor Plus 1.0 Final
+
+
+[Package|Editor Plus 1.0 Final|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\Visual Basic 6\My Softwares\Editor Plus\Setup
+
+[Package|Editor Plus 1.0 Final|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Editor Plus 1.0 Final|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Editor Plus 1.0 Final|Files Found]
+
+[Package|Editor Plus 1.0 Final|Files Released]
+
+[Package|Editor Plus 1.0 Final|Missing Dependency Information]
+
+[Package|Editor Plus 1.0 Final|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Editor Plus 1.0 Final|Files Added]
+
+[Package|Editor Plus 1.0 Final|Files Removed]
+
+[Package|Editor Plus 1.0 Final|Files In Project]
+I:\Visual Basic 6\My Softwares\Editor Plus\Editor Plus.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Editor Plus 1.0 Final|Configure Registry Files]
+Applicable=No
+
+[Package|Editor Plus 1.0 Final|Configure Remote Servers]
+Applicable=No
+
+[Package|Editor Plus 1.0 Final|Install Locations]
+I:\Visual Basic 6\My Softwares\Editor Plus\Editor Plus.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Editor Plus 1.0 Final|Configure Shared Files]
+Applicable=Yes
+I:\Visual Basic 6\My Softwares\Editor Plus\Editor Plus.exe=No
+
+[Package|Editor Plus 1.0 Final|Distribution]
+Type=single
+Size=
+Title=Alconsoft - Editor Plus 1.0 
+
+[Package|Editor Plus 1.0 Final|IconGroups]
+Group0=Alconsoft
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Editor Plus 1.0 Final|Alconsoft]
+Icon1="Editor Plus.exe"
+Title1=Editor Plus 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Editor Plus 1.0 Final|Package]
+PackageFolder=I:\Visual Basic 6\My Softwares\Editor Plus\Setup
+ProjectFolder=I:\Visual Basic 6\My Softwares\Editor Plus
+ServerSideCab=
+File1=I:\Visual Basic 6\My Softwares\Editor Plus\Setup\setup.exe
+File2=I:\Visual Basic 6\My Softwares\Editor Plus\Setup\Setup.Lst
+File3=I:\Visual Basic 6\My Softwares\Editor Plus\Setup\Editor Plus.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
